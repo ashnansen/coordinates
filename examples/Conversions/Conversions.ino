@@ -54,7 +54,7 @@ void setup() {
 }
 
 void loop() {
-  delay(100);
+  delay(100); // needs to be removed 
   Serial.println("Testing coordinates conversion");
   isEqual(0,0,0,0);
   isEqual(0,1,1,PI/2);
@@ -63,6 +63,6 @@ void loop() {
   isEqual(-1,-1,sqrt(2),PI*5/4);
   isEqual(1,-1,sqrt(2),PI*7/4);
   isEqual(-1,1,sqrt(2),PI*3/4);
-  delay(1000);
+  delay(1000); // needs to be removed 
   Serial.print("\n\n\n");
 }
